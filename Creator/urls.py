@@ -17,7 +17,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^admsin/', include(admin.site.urls)),
+    url(r'^admsweqin/', include(admin.site.urls)),
     url(r'^$', 'lego.views.home'),
     url(r'^accounts/', include('allauth.urls')),
     url(r'^accounts/profile/$', 'lego.views.profile'),
